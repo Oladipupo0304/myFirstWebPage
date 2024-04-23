@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About us</title>
+        <style>
+            body{
+                color: white;
+                background: rgb(169, 100, 51);
+               
+            }
+             .about{
+                text-decoration: underline;
+                padding: 30px 40px;
+                text-shadow:1px 1px  black;
+                }
+                #demo{
+                  
+                    color: cornsilk;
+                }
+        </style>
+    </head>
+    <body>
+     <!--    <h1 class="about">About Us</h1>
+        <ul>
+            <li></li>
+        </ul>
+
+            <form action="http://google.com">
+                <input list="browsers" name="browser">
+                <datalist class="broswer">
+                    <option value="Facebook">
+                    <option value="Instagram">
+                    <option value="google">
+                    <option value="skype">
+                    <option value="TikTok">
+                    <option value="You Tube">
+                    <option value="Twitter">
+                </datalist>
+                <input type="submit" value="Submit Here">
+               
+            </form>  -->
+
+            <h1>Welcome to my Webpage</h1>
+            <button type="button" onclick="myFunction()">Press Here To Start</button>
+
+            <p id="demo">It Is An Amazing Website</p>
+
+            <script>
+                function myFunction() {
+                    document.getElementById("demo").innerHTML ="YOU ARE ALL WELCOME TO MY LOVELY WEB PAGE";
+                }
+                
+            </script>
+        
+            Press This To Show Date&Time
+    <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+    
+    <p id="demo"></p>
+    
+    </body>
+</html>
